@@ -1,0 +1,127 @@
+{
+	"gitbook": "3.2.2",
+	"title": "gitbook-notes",
+	"description": "Gitbook使用教程",
+	"author": "feng baobao",
+	"language": "zh-hans",
+	"root": ".",
+	"links": {
+        "sidebar": {
+		"gitbook-notes": "https://github.com/fengjunhuii/gitbooknotes"
+			}
+	},
+
+	"plugins":[
+	"-lunr",
+    "-search",
+    "-highlight",
+	"ace@^0.3.2",
+	"emphasize@^1.1.0",
+	"edit-link",
+	"advanced-emoji",
+	"anchors",
+	"anchor-navigation-ex@1.0.10",
+	"emphasize",
+	"favicon@^0.0.2",
+	"github@^2.0.0","github-buttons@2.1.0",
+	"donate@^1.0.2",
+	"local-video@^1.0.1",
+	"search-plus@^0.0.11",
+	"sectionx@^3.1.0",
+	"simple-page-toc@^0.1.1",
+	"splitter",
+	"-sharing",
+	"tbfed-pagefooter",
+	"todo@^0.1.3"
+	],
+	
+	"pluginsConfig": {
+		"edit-link": {
+			"base": "https://fengjunhui.online",
+			"label": "编辑当前页面"
+		},
+		
+		"anchor-navigation-ex": {
+			"showLevel": false,
+			"associatedWithSummary": true,
+			"isRewritePageTitle": false,
+			"float": {
+			  "showLevelIcon": false,
+			  "level1Icon": "fa fa-hand-o-right",
+			  "level2Icon": "fa fa-hand-o-right",
+			  "level3Icon": "fa fa-hand-o-right"
+			},
+			"pageTop": {
+			  "showLevelIcon": false,
+			  "level1Icon": "fa fa-hand-o-right",
+			  "level2Icon": "fa fa-hand-o-right",
+			  "level3Icon": "fa fa-hand-o-right"
+			}
+		},	
+		
+		"favicon": {
+		  "shortcut": "https://raw.githubusercontent.com/dunwu/gitbook-notes/master/assets/images/favicon.ico",
+		  "bookmark": "https://raw.githubusercontent.com/dunwu/gitbook-notes/master/assets/images/favicon.ico",
+            "appleTouch": "assets/images/apple-touch-icon.png",
+            "appleTouchMore": {
+                "120x120": "assets/images/apple-touch-icon-120x120.png",
+                "180x180": "assets/images/apple-touch-icon-180x180.png"
+            }
+        },
+
+        "github": {
+            "url": "https://github.com/fengjunhuii/gitbooknotes"
+        },
+		"github-buttons": {
+		  "repo": "fengjunhuii/gitbooknotes",
+		  "types": [
+			"star"
+		  ],
+		  "size": "small"
+		},
+		
+		"donate": {
+		  "wechat": "https://raw.githubusercontent.com/dunwu/gitbook-notes/master/assets/images/weixin.jpg",
+		  "alipay": "https://raw.githubusercontent.com/dunwu/gitbook-notes/master/assets/images/zhifubao.jpg",
+		  "title": "",
+		  "button": "赏",
+		  "alipayText": "支付宝打赏",
+		  "wechatText": "微信打赏"
+		},
+		
+		"sectionx": {
+          "tag": "b"
+        },
+		"simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+        },
+		"sharing": {
+			"weibo": true,
+			"facebook": true,
+			"twitter": true,
+			"google": false,
+			"instapaper": false,
+			"vk": false,
+			"all": [
+				"facebook", "google", "twitter",
+					"weibo", "instapaper"
+			]
+		},
+		 "tbfed-pagefooter": {
+			"copyright":"Copyright &copy feng baobao 2019-2109",
+			"modify_label": "文件最近一次修订时间：",
+			"modify_format": "YYYY-MM-DD HH:mm:ss"
+		}
+    }
+}
+
+
+
+
+
+
+
+
+
+
